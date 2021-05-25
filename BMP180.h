@@ -47,29 +47,29 @@ typedef enum{
 
 typedef struct{
 	int16_t				AC1,
-						AC2,
-						AC3,
-						B1,
-						B2,
-						MB,
-						MC,
-						MD;
+					AC2,
+					AC3,
+					B1,
+					B2,
+					MB,
+					MC,
+					MD;
 
 	uint16_t			AC4,
-						AC5,
-						AC6;
+					AC5,
+					AC6;
 
 	int32_t				UT,
-						UP,
-						X1,
-						X2,
-						X3,
-						B3,
-						B5,
-						B6;
+					UP,
+					X1,
+					X2,
+					X3,
+					B3,
+					B5,
+					B6;
 
 	uint32_t	 		B4,
-						B7;
+					B7;
 
 }BMP180_Calib_t;
 
